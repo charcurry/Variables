@@ -17,10 +17,11 @@ namespace Variables
             //declaring variables as int/string and initializing them
             int score = 0;
             int enemyValue = 1000;
-            float percentile = (943005f/5452256f) * 100f;
+            float percentile = (943005.0f/5452256.0f) * 100.0f;
 
             string realName = "Charlie Curry";
             string gamerTag = "Kickycaptain";
+
 
             //pretend gameplay
             score += enemyValue;
