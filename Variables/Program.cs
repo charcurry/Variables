@@ -10,8 +10,16 @@ namespace Variables
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.ReadLine();
+            Console.WriteLine("Variables:");
+            Console.WriteLine("----------");
+            Console.WriteLine();
+
+            //score
+            int score;
+
+            Console.WriteLine();
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey(true);
         }
     }
 }
