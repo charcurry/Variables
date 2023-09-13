@@ -15,9 +15,13 @@ namespace Variables
             Console.WriteLine();
 
             //score
-            int score;
+            int score = 0;
 
-            Console.WriteLine();
+            Console.WriteLine(score);
+            score += 1;
+            Console.WriteLine(score);
+            score += 1;
+            Console.WriteLine(score);
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey(true);
         }
