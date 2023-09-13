@@ -14,17 +14,21 @@ namespace Variables
             Console.WriteLine("----------");
             Console.WriteLine();
 
-            //declaring variable 'score' as type integer
-            int score;
+            //declaring variables as int/string and initializing them
+            int score = 0;
+            int enemyValue = 1000;
+            float percentile = (943005f/5452256f) * 100f;
 
-            //initializing score
-            score = 0;
+            string realName = "Charlie Curry";
+            string gamerTag = "Kickycaptain";
 
             //pretend gameplay
-            score += 100;
+            score += enemyValue;
 
             //hud
+            Console.WriteLine(realName + " " + gamerTag);
             Console.WriteLine("Score: " + score);
+            Console.WriteLine("Percentile Rank: " + percentile);
 
             Console.WriteLine();
             Console.WriteLine("Press any key to exit...");
